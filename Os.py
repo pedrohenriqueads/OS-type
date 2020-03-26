@@ -8,17 +8,14 @@ class OS:
 
     def os(self):
         if self.platform == 'linux':
-            # para linux
             # for linux
             return self.platform
 
         elif self.platform == 'darwin':
-            # para Mac
             # for Mac
             return self.platform
 
         elif self.platform == 'windows':
-            # para Windows
             # for Windows OS
             return self.platform
 
